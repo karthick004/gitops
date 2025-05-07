@@ -11,7 +11,7 @@ spec:
     path: efk-stack
   destination:
     server: https://kubernetes.default.svc
-    namespace: app1
+    namespace: efk
   syncPolicy:
     automated:
       prune: true
